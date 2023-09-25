@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "469958364918",
+    "project_id": "ayurscan-1f0f7",
+    "storage_bucket": "ayurscan-1f0f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469958364918:android:187d030457cd5770bde6d7",
+        "android_client_info": {
+          "package_name": "com.example.ayurscan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxMUoDADW_kjYrTgWkzTA21GI3-BOj5y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
