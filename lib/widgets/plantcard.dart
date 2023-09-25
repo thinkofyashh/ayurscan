@@ -40,7 +40,8 @@ Widget Plant(String plantname, String imgpath) {
     child: Column(
       children: [
         Card(
-
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(16.0)),
           elevation: 0.0,
           child: Image.asset(
             imgpath,
@@ -62,4 +63,3 @@ Widget Plant(String plantname, String imgpath) {
     ),
   );
 }
-

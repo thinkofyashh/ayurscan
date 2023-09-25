@@ -1,4 +1,6 @@
 import 'package:ayurscan/widgets/cards.dart';
+import 'package:ayurscan/widgets/categoryclip.dart';
+import 'package:ayurscan/widgets/quickaccess.dart';
 import 'package:flutter/material.dart';
 import 'package:ayurscan/widgets/plantcard.dart';
 
@@ -21,14 +23,39 @@ class Cards extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(18.0),
               child: Text(
-                "Featured or Popular plants",
+                "Featured or Popular Plants",
                 style: TextStyle(
                     color: Theme.of(context).colorScheme.primary,
                     fontSize: 28.0,
                     fontWeight: FontWeight.bold),
                 textAlign: TextAlign.start,
               ),
-            ),const PlantCard()
+            ),
+            const PlantCard(),
+            Padding(
+              padding: const EdgeInsets.all(18.0),
+              child: Text(
+                "Categories or Filters",
+                style: TextStyle(
+                    color: Theme.of(context).colorScheme.primary,
+                    fontSize: 28.0,
+                    fontWeight: FontWeight.bold),
+                textAlign: TextAlign.start,
+              ),
+            ),
+            const Clips(),
+            Padding(
+              padding: const EdgeInsets.all(14.0),
+              child: Text(
+                "Quick Access",
+                style: TextStyle(
+                    color: Theme.of(context).colorScheme.primary,
+                    fontSize: 28.0,
+                    fontWeight: FontWeight.bold),
+                textAlign: TextAlign.start,
+              ),
+            ),
+            const QuickAccess()
 
           ],
         )
